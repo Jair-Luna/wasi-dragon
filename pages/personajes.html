@@ -4,13 +4,14 @@
 		<meta charset="utf-8" />
 		<title>Wasi - Dragon</title>
 		<link href="../css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="shortcut icon" href="./img/logoF.png" type="image/x-icon" />
+		<link href="../css/sytles.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="../img/logoF.png" type="image/x-icon" />
 	</head>
 	<body>
 		<div>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="#">Navbar</a>
+					<a class="navbar-brand" href="../index.html">Wasi-Dragon</a>
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -26,10 +27,13 @@
 					<div class="collapse navbar-collapse" id="navbarColor02">
 						<ul class="navbar-nav me-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="#">Personajes</a>
+								<a class="nav-link active" href="#">Personajes</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="./informacion.html">Información</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./ayuda.html">Ayuda</a>
 							</li>
 						</ul>
 					</div>
@@ -39,13 +43,10 @@
 			<div class="d-grid gap-2">
 				<div class="container-lg me-0 ms-0">
 					<p>
-						Conocer los personajes! ¡Explora el perfil de cada personaje de
-						Tamagotchi para obtener información privilegiada sobre las mascotas
-						virtuales que conoces y amas! Como sabes, cada personaje de
-						Tamagotchi es único a su manera, desde su comida favorita hasta lo
-						que le gusta hacer para divertirse, ¡así que esta página te
-						permitirá entenderlos de una manera completamente nueva para el
-						Tamagotchi Pix!
+						¡Conoce los personajes! ¡Explora el perfil de cada personaje para
+						obtener información privilegiada sobre las mascotas virtuales que
+						amaras! Como sabes, cada personaje es único a su manera, desde su
+						comida favorita hasta lo que le gusta hacer para divertirse, ¡Así
 					</p>
 				</div>
 
@@ -55,21 +56,21 @@
 							<img
 								src="../img/dragon_baby.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 1"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">Illari</h5>
-								<p id="illariTxt" class="card-text">
+								<p id="illariTxt" class="card-text text-justify">
 									Contonea al caminar y es joven de corazón. También es un poco
 									ingenua, así que todos los que la rodean quieren protegerla.
 								</p>
 								<a class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="illariBtn" class="btn btn-warning p-1">
 									<img
-										id="illariBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 1"
 									/>
 								</button>
 							</div>
@@ -79,22 +80,22 @@
 							<img
 								src="../img/dragon_baby1.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 2"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">Sami</h5>
-								<p id="samiTxt" class="card-text">
+								<p id="samiTxt" class="card-text text-justify">
 									Tiene grandes habilidades lingüísticas y disfruta estudiando
 									idiomas de todo el mundo. Valora la armonía y actúa pensando
 									en todos, por lo que las cosas suelen ir bien.
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="samiBtn" class="btn btn-warning p-1">
 									<img
-										id="samiBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 2"
 									/>
 								</button>
 							</div>
@@ -104,22 +105,22 @@
 							<img
 								src="../img/dragon_baby2.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 3"
 							/>
 							<div class="card-body">
 								<h5 class="card-title" l>Kilari</h5>
-								<p id="kilariTxt" class="card-text">
+								<p id="kilariTxt" class="card-text text-justify">
 									Es muy organizada y ordenada. Ella siempre tiene cuidado de
 									dormir lo suficiente y de hacer un seguimiento de sus
 									pertenencias.
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="kilariBtn" class="btn btn-warning p-1">
 									<img
-										id="kilariBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 3"
 									/>
 								</button>
 							</div>
@@ -129,22 +130,22 @@
 							<img
 								src="../img/dragon_baby3.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 4"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">Yanay</h5>
-								<p id="yanayTxt" class="card-text">
+								<p id="yanayTxt" class="card-text text-justify">
 									Es un artista popular. ¡Dibuja retratos y pinta la ciudad
 									aunque usa su arte para expandir su círculo de amigos y
 									comunicación!
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="yanayBtn" class="btn btn-warning p-1">
 									<img
-										id="yanayBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 4"
 									/>
 								</button>
 							</div>
@@ -154,22 +155,22 @@
 							<img
 								src="../img/dragon_baby4.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 5"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">Unay</h5>
-								<p id="unayTxt" class="card-text">
+								<p id="unayTxt" class="card-text text-justify">
 									Entrena duro como un ninja. Está orgullosa de sus movimientos
 									rápidos y de poder mantenerse tranquila mientras lo hace.
 									¡También es tímida y romántica cuando se trata de amor!
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="unayBtn" class="btn btn-warning p-1">
 									<img
-										id="unayBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 5"
 									/>
 								</button>
 							</div>
@@ -179,21 +180,21 @@
 							<img
 								src="../img/dragon_baby5.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 6"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">Sayani</h5>
-								<p id="sayaniTxt" class="card-text">
+								<p id="sayaniTxt" class="card-text text-justify">
 									Es muy amigable, sin embargo, cuando se enfada
 									¡accidentalmente lanza fuego!
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="sayaniBtn" class="btn btn-warning p-1">
 									<img
-										id="sayaniBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 6"
 									/>
 								</button>
 							</div>
@@ -203,23 +204,23 @@
 							<img
 								src="../img/dragon_baby6.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 7"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">Antay</h5>
-								<p id="antayTxt" class="card-text">
+								<p id="antayTxt" class="card-text text-justify">
 									Suele ser muy alegre, aunque puede ser travieso al mismo
 									tiempo. No le gusta que lo consideren un niño, así que hace
 									todo lo que puede para decir y hacer las cosas para parecer
 									mayor.
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="antayBtn" class="btn btn-warning p-1">
 									<img
-										id="antayBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 7"
 									/>
 								</button>
 							</div>
@@ -229,23 +230,23 @@
 							<img
 								src="../img/dragon_baby7.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 8"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">Kusi</h5>
-								<p id="kusiTxt" class="card-text">
+								<p id="kusiTxt" class="card-text text-justify">
 									le encantan los patrones de rayas y circulares. Le encanta
 									reunirse con amigos para hablar de todo lo relacionado con las
 									rayas y los círculos, ¡y para mostrar que los ama más que
 									ellos!
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="kusiBtn" class="btn btn-warning p-1">
 									<img
-										id="kusiBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 8"
 									/>
 								</button>
 							</div>
@@ -255,22 +256,22 @@
 							<img
 								src="../img/dragon_baby8.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 9"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">Tupac</h5>
-								<p id="tupacTxt" class="card-text">
+								<p id="tupacTxt" class="card-text text-justify">
 									Es bueno en los deportes y el fútbol es su favorito. Es muy
 									competitivo, así que si juegas contra él, ¡cuidado! Aunque
 									fuera de los deportes, ¡es muy amigable!
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="tupacBtn" class="btn btn-warning p-1">
 									<img
-										id="tupacBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 9"
 									/>
 								</button>
 							</div>
@@ -280,21 +281,21 @@
 							<img
 								src="../img/dragon_baby9.png"
 								class="card-img-top"
-								alt="..."
+								alt="Dragon bebe 10"
 							/>
 							<div class="card-body">
 								<h5 class="card-title">?????????????</h5>
-								<p id="descTxt" class="card-text">
+								<p id="descTxt" class="card-text text-justify">
 									Un dragón desconocido, se sabe muy poco de el, serás el
 									primero en poder saber su nombre y su forma.
 								</p>
 								<a href="#" class="btn btn-primary">Go somewhere</a>
-								<button class="btn btn-warning p-1">
+								<button id="descBtn" class="btn btn-warning p-1">
 									<img
-										id="descBtn"
 										src="../img/speaker.png"
 										width="10px"
 										height="10px"
+										alt="Voz dragon 10"
 									/>
 								</button>
 							</div>
