@@ -4,13 +4,14 @@
 		<meta charset="utf-8" />
 		<title>Wasi - Dragon</title>
 		<link href="../css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="shortcut icon" href="./img/logoF.png" type="image/x-icon" />
+		<link href="../css/sytles.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="../img/logoF.png" type="image/x-icon" />
 	</head>
 	<body>
 		<div>
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 				<div class="container-fluid">
-					<a class="navbar-brand" href="#">Navbar</a>
+					<a class="navbar-brand" href="../index.html">Wasi-Dragon</a>
 					<button
 						class="navbar-toggler"
 						type="button"
@@ -29,7 +30,12 @@
 								<a class="nav-link" href="./personajes.html">Personajes</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Información</a>
+								<a class="nav-link active" href="#">Información</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./ayuda.html"
+									>Ayuda</a
+									>
 							</li>
 						</ul>
 					</div>
@@ -37,28 +43,150 @@
 			</nav>
 
 			<div>
+				<h1 class="fs-1 p-1">Información</h1>
 				<div class="card border-dark m-3" style="width: auto">
-					<div class="card-header">Header</div>
-					<div class="card-body">
-						<h4 class="card-title">Dark card title</h4>
-						<p class="card-text">
-							Some quick example text to build on the card title and make up the
-							bulk of the card's content.
+					<div class="card-header fs-2">Sobre nosotros</div>
+					<div class="card-body text-black">
+						<h4 class="card-title fs-3">Quiénes somos</h4>
+						<p class="card-text fs-4 text-justify">
+							Equipo de desarrollo de 5 amigos, donde cada uno tiene un rol
+							distinto a cumplir para el desarrollo con éxito de los proyectos a
+							realizar y tenemos el nombre de “FiveSoftGame”
 						</p>
 					</div>
 				</div>
 
 				<div class="card border-dark m-3" style="width: auto">
-					<div class="card-header">Header</div>
+					<div class="card-header fs-2">Equipo de desarrollo</div>
 					<div class="card-body">
-						<h4 class="card-title">Dark card title</h4>
-						<p class="card-text">
-							Some quick example text to build on the card title and make up the
-							bulk of the card's content.
-						</p>
+						<div class="row row-cols-auto gap-2">
+							<div class="card col" style="width: 18rem">
+								<img
+									src="../img/avatar-panda.jpeg"
+									class="card-img-top p-1"
+									alt="Avatar bolipounk16"
+								/>
+								<div class="card-body text-black">
+									<h5 class="card-title">bolipounk16</h5>
+									<p id="bolipounk16Txt" class="card-text text-justify">
+										Un panda aficionado a el diseño que realiza su trabajo en
+										dos momentos en salida y puesta del sol ya que el resto del
+										dia es bastante sedentario, limitandose a comer y ocultarse
+										de los demás desarrolladores.
+									</p>
+									<button id="bolipounk16Btn" class="btn btn-warning p-1">
+										<img
+											src="../img/speaker.png"
+											width="10px"
+											height="10px"
+											alt="Lectura avatar bolipounk16"
+										/>
+									</button>
+								</div>
+							</div>
+
+							<div class="card col" style="width: 18rem">
+								<img
+									src="../img/avatar-quak.jpeg"
+									class="card-img-top p-1"
+									alt="Avatar Davrobrine"
+								/>
+								<div class="card-body text-black">
+									<h5 class="card-title">Davrobrine</h5>
+									<p id="DavrobrineTxt" class="card-text text-justify">
+										Desarrollador secundario encargado de la codificación junto
+										al desarrollador principal y de proponer diferentes ideas a
+										implementar y proponer actividades a realizar.
+									</p>
+									<button id="DavrobrineBtn" class="btn btn-warning p-1">
+										<img
+											src="../img/speaker.png"
+											width="10px"
+											height="10px"
+											alt="Lectura avatar Davrobrine"
+										/>
+									</button>
+								</div>
+							</div>
+
+							<div class="card col" style="width: 18rem">
+								<img
+									src="../img/avatar-paloma.jpeg"
+									class="card-img-top p-1"
+									alt="Avatar Alex90J"
+								/>
+								<div class="card-body text-black">
+									<h5 class="card-title">Alex90J</h5>
+									<p id="Alex90JTxt" class="card-text text-justify">
+										Desarrollador principal, encargado de dirigir al resto de
+										creadores y poner todo en su lugar, apasionado por la música
+										extrema la cual lo acompaña en cada hora de trabajo.
+									</p>
+									<button id="Alex90JBtn" class="btn btn-warning p-1">
+										<img
+											src="../img/speaker.png"
+											width="10px"
+											height="10px"
+											alt="Lectura avatar Alex90J"
+										/>
+									</button>
+								</div>
+							</div>
+
+							<div class="card col" style="width: 18rem">
+								<img
+									src="../img/avatar-anderson.jpeg"
+									class="card-img-top p-1"
+									alt="Avatar 4nd3r50n50"
+								/>
+								<div class="card-body text-black">
+									<h5 class="card-title">4nd3r50n50</h5>
+									<p id="4nd3r50n50Txt" class="card-text text-justify">
+										Tester planifico y llevo a cabo pruebas de software para
+										comprobar si funcionan correctamente. Evalúo el
+										funcionamiento general del software y sugiero formas de
+										mejorarlo además de ocuparme de la producción auditiva del
+										software.
+									</p>
+									<button id="4nd3r50n50Btn" class="btn btn-warning p-1">
+										<img
+											src="../img/speaker.png"
+											width="10px"
+											height="10px"
+											alt="Lectura avatar 4nd3r50n50"
+										/>
+									</button>
+								</div>
+							</div>
+
+							<div class="card col" style="width: 18rem">
+								<img
+									src="../img/avatar-jessica.jpeg"
+									class="card-img-top p-1"
+									alt="Avatar Salvatore_22"
+								/>
+								<div class="card-body text-black">
+									<h5 class="card-title">Salvatore_22</h5>
+									<p id="Salvatore_22Txt" class="card-text text-justify">
+										Persona encargada de la documentación en todo el desarrollo,
+										y que le gusta mucho el chocolate.
+									</p>
+									<button id="Salvatore_22Btn" class="btn btn-warning p-1">
+										<img
+											src="../img/speaker.png"
+											width="10px"
+											height="10px"
+											alt="Lectura avatar Salvatore_22"
+										/>
+									</button>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<script src="../js/informacion.js"></script>
 	</body>
 </html>
